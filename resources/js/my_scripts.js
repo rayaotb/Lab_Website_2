@@ -57,7 +57,7 @@ function viewStudentStats(id, toggle)
 */
 function changeColor(color)
 {
-	document.background(color);
+	document.body.style.background = color; 
 
 }
 
